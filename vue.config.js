@@ -1,6 +1,6 @@
 const { defineConfig } = require("@vue/cli-service");
 module.exports = defineConfig({
   publicPath: "./",
-  outputDir: "./docs",
+  outputDir: "./public/ff14-dice-sort",
   transpileDependencies: ["vuetify"],
 });
