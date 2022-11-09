@@ -4,9 +4,11 @@
     <p>{{ mainText }}</p>
     <p>{{ subText1 }}</p>
     <v-textarea
-      solo
+      outlined
+      clearable
+      clear-icon="mdi-close-circle"
       name=""
-      label="ログを貼り付けてください"
+      label="ダイス結果を含むログ"
       v-model="fflogs"
     ></v-textarea>
     <v-btn color="primary" @click="analyze">結果を表示する</v-btn>
@@ -26,12 +28,15 @@
 export default {
   data() {
     return {
-      title: "FF14 Dice Sort",
+      title: "FF14 Dice Sorter",
       mainText: "ダイスの結果を含むFF14のログを貼り付けてください。",
       subText1: "会話やエモートなどのログは自動で除外されます。",
       subText2: "下記の表からダイスの結果を確認できます。",
       subText3: "ヘッダーをクリックするとソートできます。",
-      fflogs: "",
+      fflogs: `ダイス！ Alphinaud	LeveilleurAlexanderは、159を出した！
+ダイス！ Alisaie LeveilleurBahamutは、	248を出した！
+ダイス！ Fourchenault LeveilleurDurandalは、128を出した！
+ダイス！ Ameliance LeveilleurFenrirは、999を出した！`,
       headers: [
         { text: "First name", align: "start", value: "firstname" },
         { text: "Last name", value: "lastname" },
