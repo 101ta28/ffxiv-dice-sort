@@ -36,12 +36,7 @@
         >
         <br />
         いいと思ったらシェアしていただけると喜びます！
-        <v-btn
-          class="primary white--text"
-          href="https://twitter.com/share?ref_src=twsrc%5Etfw"
-          target="_blank"
-          text
-          @click="twitterShare"
+        <v-btn class="primary white--text" text @click="twitterShare"
           ><strong>シェアする</strong>
           <v-icon class="primary white--text">mdi-twitter</v-icon>
         </v-btn>
