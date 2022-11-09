@@ -1,7 +1,8 @@
 <template>
   <div>
     <h1>{{ title }}</h1>
-    <p>{{ text }}</p>
+    <p>{{ mainText }}</p>
+    <p>{{ subText1 }}</p>
     <v-textarea
       solo
       name=""
@@ -10,6 +11,8 @@
     ></v-textarea>
     <v-btn color="primary" @click="analyze">結果を表示する</v-btn>
     <v-col class="d-flex" cols="12" sm="6" />
+    <p>{{ subText2 }}</p>
+    <p>{{ subText3 }}</p>
     <v-data-table
       :headers="headers"
       :items="data"
@@ -24,7 +27,10 @@ export default {
   data() {
     return {
       title: "FF14 Dice Sort",
-      text: "ダイスを振った後のFF14のログを貼り付けてください。",
+      mainText: "ダイスの結果を含むFF14のログを貼り付けてください。",
+      subText1: "会話やエモートなどのログは自動で除外されます。",
+      subText2: "下記の表からダイスの結果を確認できます。",
+      subText3: "ヘッダーをクリックするとソートできます。",
       fflogs: "",
       headers: [
         { text: "First name", align: "start", value: "firstname" },
