@@ -36,6 +36,7 @@ export default {
       fflogs: `ダイス！ Alphinaud	LeveilleurAlexanderは、159を出した！
 ダイス！ Alisaie LeveilleurBahamutは、	248を出した！
 ダイス！ Fourchenault LeveilleurDurandalは、128を出した！
+Hildibrand Mandervilleは紳士の舞を踊った。
 ダイス！ Ameliance LeveilleurFenrirは、999を出した！`,
       headers: [
         { text: "First name", align: "start", value: "firstname" },
