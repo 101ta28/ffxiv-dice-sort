@@ -2,17 +2,12 @@
   <v-app>
     <v-app-bar app color="primary white--text">
       <div class="d-flex align-center">
-        <h2>FF14 Dice Sorter</h2>
+        <h2>Dice Sorter</h2>
       </div>
 
       <v-spacer></v-spacer>
 
-      <v-btn
-        class="primary white--text"
-        href="https://github.com/101ta28/ff14-dice-sort"
-        target="_blank"
-        text
-      >
+      <v-btn class="primary white--text" href="https://github.com/101ta28/ff14-dice-sort" target="_blank" text>
         <span class="mr-2">Source Code</span>
         <v-icon>mdi-open-in-new</v-icon>
       </v-btn>
@@ -28,16 +23,12 @@
         Copyright (C) 2010 - {{ new Date().getFullYear() }} SQUARE ENIX CO.,
         LTD. All Rights Reserved.<br />
         ハッシュタグはこちら
-        <a
-          class="white--text"
+        <a class="white--text"
           href="https://twitter.com/search?q=%23FF14%E3%83%80%E3%82%A4%E3%82%B9%E3%82%BD%E3%83%BC%E3%82%BF%E3%83%BC"
-          target="_blank"
-          >#FF14ダイスソーター</a
-        >
+          target="_blank">#FF14ダイスソーター</a>
         <br />
         いいと思ったらシェアしていただけると喜びます！
-        <v-btn class="primary white--text" text @click="twitterShare"
-          ><strong>シェアする</strong>
+        <v-btn class="primary white--text" text @click="twitterShare"><strong>シェアする</strong>
           <v-icon class="primary white--text">mdi-twitter</v-icon>
         </v-btn>
         <v-divider></v-divider>
