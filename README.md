@@ -13,5 +13,5 @@ Vue + Vuetify2 で動いています。
 ```bash
 # 下記コマンドで動作が確認できます。
 yarn install
-yarn dev
+yarn serve
 ```
