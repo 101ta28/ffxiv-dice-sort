@@ -1,10 +1,10 @@
-# ff14-dice-sort
+# ffxiv-dice-sort
 
 FF14 のダイスログをソートするプログラムです
 
 ## URL
 
-https://101ta28.github.io/ff14-dice-sort/
+https://101ta28.github.io/ffxiv-dice-sort/
 
 ## 開発環境
 
