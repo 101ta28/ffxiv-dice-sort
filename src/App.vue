@@ -7,7 +7,7 @@
 
       <v-spacer></v-spacer>
 
-      <v-btn class="primary white--text" href="https://github.com/101ta28/ff14-dice-sort" target="_blank" text>
+      <v-btn class="primary white--text" href="https://github.com/101ta28/ffxiv-dice-sort" target="_blank" text>
         <span class="mr-2">Source Code</span>
         <v-icon>mdi-open-in-new</v-icon>
       </v-btn>
@@ -58,7 +58,7 @@ export default {
         "https://twitter.com/intent/tweet?text=" +
         "FF14ダイスソーター" +
         "&url=" +
-        "https://101ta28.github.io/ff14-dice-sort/" +
+        "https://101ta28.github.io/ffxiv-dice-sort/" +
         "&hashtags=FF14ダイスソーター" +
         "&via=AyutoNarutaki";
       window.open(tweet, "_blank");
